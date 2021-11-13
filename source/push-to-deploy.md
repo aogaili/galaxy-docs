@@ -42,7 +42,7 @@ You also have *Advanced Options*. Here is a description of each one:
 - **Root Directory**: Directory on your repository where the root of your Meteor app is.
 - **Pre Deploy Command**: This is the command that you run to install the apps dependencies, usually being `meteor npm install --production`.
 - **Deploy Arguments**: Some argument that you can provide to your [deploy command line](https://docs.meteor.com/commandline.html#meteordeploy). It shouldn't be necessary for most the cases.
-- *Build Container RAM*: This defines how much memory you want to use to deploy your app.
+- **Build Container RAM**: This defines how much memory you want to use to deploy your app.
 - **Environment Variables**: Most common when deploying a Meteor app is `DEPLOY_HOSTNAME`, that you don't need to provide anymore.
 
 <img src="images/push-to-deploy-third-step-advanced-options.png" style="width: 780px;">
