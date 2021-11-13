@@ -84,7 +84,7 @@ Yes, you can. So be careful when setting up your apps, so you don't deploy the w
 The previous deploy will be canceled and the new one will start.
 
 
-4 - *How I cancel a deploy that is in progress?*
+4 - **How I cancel a deploy that is in progress?**
 
 You can't. At least for now the only way a deploy is cancelled is if a new commit arrives, or if the deploy fails.
 
